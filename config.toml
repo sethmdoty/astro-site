@@ -1,6 +1,6 @@
 baseURL = "/"
 languageCode = "en-us"
-title = "Five Scholars EU"
+title = "Bearded Brilliance, LLC"
 
 theme = "meghna-hugo"
 paginate = "6"
@@ -28,32 +28,6 @@ weight = 4
 
 [[Languages.en.menu.main]]
 name = "contact"
-pre = "#"
-url = "contact"
-weight = 6
-
-################### Norwegian Navigation ########################
-[[Languages.nb.menu.main]]
-name = "om oss"
-pre = "#"
-url = "about"
-weight = 1
-
-[[Languages.nb.menu.main]]
-name = "tjenester"
-pre = "#"
-url = "services"
-weight = 2
-
-
-[[Languages.nb.menu.main]]
-name = "team"
-pre = "#"
-url = "team"
-weight = 4
-
-[[Languages.nb.menu.main]]
-name = "kontact oss"
 pre = "#"
 url = "contact"
 weight = 6
@@ -90,7 +64,7 @@ link = "plugins/google-map/map.js"
 
 [params]
 logo = "images/logo.png"
-author = "Marty Henderson"
+author = "Seth Doty"
 
 [params.preloader]
 enable = false
@@ -102,12 +76,4 @@ languageCode = "en-us"
 contentDir = "content/english"
 weight = 2
 home = "Home"
-copyright = "Copyright &copy; 2021 Five Scholars"
-
-[Languages.nb]
-languageName = "Bokmål"
-languageCode = "nb"
-contentDir = "content/norwegian"
-weight = 1
-home = "Home"
-copyright = "Copyright &copy; 2021 Five Scholars"
+copyright = "Copyright &copy; 2021 Bearded Brilliance"
