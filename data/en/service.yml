@@ -6,12 +6,12 @@ service:
     # service item loop
     - name : Enabling DevOps
       icon : ti-control-forward # themify icon pack : https://themify.me/themify-icons
-      content : Let us help you make your development go faster and smarter.
+      content : Let us help you make your development faster and smarter.
       
     # service item loop
     - name : Compliance
       icon : ti-shield # themify icon pack : https://themify.me/themify-icons
-      content : Worried about US HIPAA, SOX, and other regulations? We can help navigate that with you.
+      content : Worried about US HIPAA, SOX, and other regulations? We can help you navigate that.
 
     # service item loop
     - name : Cloud Migration
@@ -21,4 +21,4 @@ service:
     # service item loop
     - name : Training
       icon : ti-ruler-alt # themify icon pack : https://themify.me/themify-icons
-      content : Modern technology is rapidly changing and sometimes your developers need help. Let us teach them the modern ways.
+      content : Technology is rapidly changing and sometimes your developers need help. Let us do the training.

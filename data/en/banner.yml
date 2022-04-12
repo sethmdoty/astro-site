@@ -1,11 +1,10 @@
 ############################### Banner ################################
 banner:
   enable : true
-  bg_image_webp : "images/backgrounds/haugesund_dt.webp"
-  bg_image : "images/backgrounds/haugesund_dt.jpg"
+  bg_image : "images/backgrounds/omaha_dt.jpg"
   icon : "" # themify icon pack : https://themify.me/themify-icons
   title : "The future is already here"
-  content : "Be modern. Be smart. Be compliant. Be the brilliant."
+  content : "Be modern. Be smart. Be compliant. Be brilliant."
   button:
     enable : true
     label : "Explore Us"
