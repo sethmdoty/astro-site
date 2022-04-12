@@ -1,0 +1,11 @@
+############################# call to action ##############################
+cta:
+  enable : true
+  bg_image : "images/backgrounds/bg-white-vector.jpg"
+  bg_image_webp : "images/backgrounds/bg-white-vector.webp"
+  title : "Helping you succeed"
+  content : "You have the ability and the plan, let us unlock it."
+  button:
+    enable : true
+    label : "Start a project with us"
+    link : "#contact"

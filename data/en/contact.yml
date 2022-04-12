@@ -1,0 +1,11 @@
+############################## Contact #############################
+contact:
+  enable : true
+  title : Contact Us
+  subtitle : Contact Details
+  content :  Reach out to us!
+  
+  # Contact details
+  contact_list:
+    - icon: ti-email
+      info: "Email: seth@beardedbrilliance.com"

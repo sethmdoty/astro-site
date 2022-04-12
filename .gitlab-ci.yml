@@ -1,0 +1,20 @@
+hugo:
+  image: registry.gitlab.com/pages/hugo:latest
+  stage: build
+  script: 
+  - hugo
+  artifacts:
+    paths:
+    - public
+meli:
+  image: node:latest
+  stage: deploy
+  script:
+    - npm install
+    - > 
+        npx @getmeli/cli upload 
+        ./public
+        --url $MELI_URL
+        --site $MELI_SITE 
+        --token $MELI_TOKEN 
+        --branch $CI_COMMIT_BRANCH 

@@ -1,0 +1,15 @@
+
+############################### team ############################
+team:
+  enable : true
+  title : Our Team
+  team_member :
+    - name : Seth Doty
+      image: images/team/avatar.jpg
+      designation: Founder, Principal
+      content: Several years in the most regulated industries in the United States paired with helping companies use cutting edge technologies has given me an ability to blend modernization while still complying to some of the most complex regulations out there.
+      social:
+        - icon: ti-linkedin
+          link: "https://www.linkedin.com/in/seth-doty-969ab147/"
+        - icon: ti-email
+          link: "mailto:seth@beardedbrilliance.com"

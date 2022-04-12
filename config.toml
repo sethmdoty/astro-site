@@ -1,0 +1,113 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "Five Scholars EU"
+
+theme = "meghna-hugo"
+paginate = "6"
+summaryLength = "15"
+
+################### English Navigation ########################
+[[Languages.en.menu.main]]
+name = "about"
+pre = "#"
+url = "about"
+weight = 1
+
+[[Languages.en.menu.main]]
+name = "services"
+pre = "#"
+url = "services"
+weight = 2
+
+
+[[Languages.en.menu.main]]
+name = "team"
+pre = "#"
+url = "team"
+weight = 4
+
+[[Languages.en.menu.main]]
+name = "contact"
+pre = "#"
+url = "contact"
+weight = 6
+
+################### Norwegian Navigation ########################
+[[Languages.nb.menu.main]]
+name = "om oss"
+pre = "#"
+url = "about"
+weight = 1
+
+[[Languages.nb.menu.main]]
+name = "tjenester"
+pre = "#"
+url = "services"
+weight = 2
+
+
+[[Languages.nb.menu.main]]
+name = "team"
+pre = "#"
+url = "team"
+weight = 4
+
+[[Languages.nb.menu.main]]
+name = "kontact oss"
+pre = "#"
+url = "contact"
+weight = 6
+
+
+############################# Plugins ##########################
+# css plugins
+[[params.plugins.css]]
+link = "plugins/bootstrap/bootstrap.min.css"
+[[params.plugins.css]]
+link = "plugins/themify-icons/themify-icons.css"
+[[params.plugins.css]]
+link = "plugins/magnific-popup/magnific-popup.css"
+[[params.plugins.css]]
+link = "plugins/slick/slick.css"
+[[params.plugins.css]]
+link = "https://fonts.googleapis.com/css?family=Anaheim|Quattrocento+Sans:400,700&display=swap"
+
+# js plugins
+[[params.plugins.js]]
+link = "plugins/jquery/jquery.min.js"
+[[params.plugins.js]]
+link = "plugins/bootstrap/bootstrap.min.js"
+[[params.plugins.js]]
+link = "plugins/slick/slick.min.js"
+[[params.plugins.js]]
+link = "plugins/shuffle/shuffle.min.js"
+[[params.plugins.js]]
+link = "plugins/magnific-popup/jquery.magnific-popup.min.js"
+[[params.plugins.js]]
+link = "plugins/lazy-load/lozad.min.js"
+[[params.plugins.js]]
+link = "plugins/google-map/map.js"
+
+[params]
+logo = "images/logo.png"
+author = "Marty Henderson"
+
+[params.preloader]
+enable = false
+preloader = "images/logo.png"
+
+[Languages.en]
+languageName = "English"
+languageCode = "en-us"
+contentDir = "content/english"
+weight = 2
+home = "Home"
+copyright = "Copyright &copy; 2021 Five Scholars"
+
+[Languages.nb]
+languageName = "Bokmål"
+languageCode = "nb"
+contentDir = "content/norwegian"
+weight = 1
+home = "Home"
+copyright = "Copyright &copy; 2021 Five Scholars"

@@ -1,0 +1,14 @@
+
+############################# About ###################################
+about:
+  enable : true
+  title : About Us
+  about_item :
+
+  - icon : ti-cup # themify icon pack : https://themify.me/themify-icons
+    title : We're Professional
+    content : A decade of compliance and developer enablement at your fingertips.
+
+  - icon : ti-cloud # themify icon pack : https://themify.me/themify-icons
+    title : We're Cloud First
+    content : We look to the cloud for the smarter, faster solutions.

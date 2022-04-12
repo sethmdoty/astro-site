@@ -1,0 +1,24 @@
+################################# Service #################################
+service:
+  enable : true
+  title : How we can help
+  service_item :
+    # service item loop
+    - name : Enabling DevOps
+      icon : ti-control-forward # themify icon pack : https://themify.me/themify-icons
+      content : Let us help you make your development go faster and smarter.
+      
+    # service item loop
+    - name : Compliance
+      icon : ti-shield # themify icon pack : https://themify.me/themify-icons
+      content : Worried about US HIPAA, SOX, and other regulations? We can help navigate that with you.
+
+    # service item loop
+    - name : Cloud Migration
+      icon : ti-cloud # themify icon pack : https://themify.me/themify-icons
+      content : Unsure how to make the cloud a good value for you? Let us show you the ropes.
+      
+    # service item loop
+    - name : Training
+      icon : ti-ruler-alt # themify icon pack : https://themify.me/themify-icons
+      content : Modern technology is rapidly changing and sometimes your developers need help. Let us teach them the modern ways.
