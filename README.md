@@ -1,9 +1,9 @@
-My blog using astro.build and the astropaper theme. 
+My blog using astro.build and the astropaper theme.
 
 # AstroPaper 📄
 
 ![AstroPaper](public/astropaper-og.jpg)
-AstroPaper is a minimal, responsive, accessible and SEO-friendly Astro blog theme. This theme is designed and crafted based on [my personal blog](https://satnaing.dev/blog).
+AstroPaper is a minimal, responsive, accessible and SEO-friendly Astro blog theme. This theme is designed and crafted based on [my personal blog](https://sethdoty.dev).
 
 ## 👨🏻‍💻 Running Locally
 
