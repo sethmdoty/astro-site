@@ -86,7 +86,7 @@ Over 20 years professional experience with extensive background in enterprise de
   Cerebral
   </span>
   <span class="resume-entry-title">
-  Principal Security Engineer
+  Senior Manager of Security Engineering
   </span>
   </span>
   <span class="resume-entry-right">
